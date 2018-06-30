@@ -9,17 +9,16 @@ private:
 	int m_grapchic_size_x;
 	int m_grapchic_size_y;
 public:
-  SetPositionX(int x);
-  SetPositionY(int y);
-  GetPositionX();
-  GetPositionY();
-  SetGprahicSizeX();
-  SetGraphicSeizeY();
-  GetGrapchicSizeX();
-  GetGrapchicSizeY();
-  LoadGraphic();
-  DrawGraphic();
-  MoveGrapchic();
+  void SetPositionX(int x);
+  void SetPositionY(int y);
+  void LoadGraphic(char *graph);
+  void DrawGraphic();
+  void SetGprahicSize();
+  void MoveGrapchic();
+  int GetPositionX();
+  int GetPositionY();
+  int GetGrapchicSizeX();
+  int GetGrapchicSizeY();
 };
 
 #endif

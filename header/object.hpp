@@ -1,0 +1,4 @@
+#ifndef	INCLUDE_GUARD_OBJECT_HPP
+#define	INCLUDE_GUARD_OBJECT_HPP
+
+#endif

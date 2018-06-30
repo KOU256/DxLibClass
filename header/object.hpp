@@ -8,7 +8,18 @@ private:
 	int m_grapchic_handle;
 	int m_grapchic_size_x;
 	int m_grapchic_size_y;
-  public:
+public:
+  SetPositionX(int x);
+  SetPositionY(int y);
+  GetPositionX();
+  GetPositionY();
+  SetGprahicSizeX();
+  SetGraphicSeizeY();
+  GetGrapchicSizeX();
+  GetGrapchicSizeY();
+  LoadGraphic();
+  DrawGraphic();
+  MoveGrapchic();
 };
 
 #endif
